@@ -13,6 +13,7 @@ If this were a real organization this website would be used as a marketplace for
 What has been created so far
 ****************************
 - Full installation and integration of Codeigniter with the domain and the .htaccess file is properly created.
+- Use of Html5 and Bootstrap for the frontend of the website
 - User registration and login and registration email.
 - Pagination for seperating the displayed amount of guitars by pages.
 - All the controllers for existing pages have been properly routed in the routes.php in.
@@ -22,6 +23,7 @@ What has been created so far
 - Functionality for bidding on guitars is included, which allows users to bid on guitars they didn't upload themselves for any quantity or amount, accompanied with a comment they write.
 - The detail page for a guitar is decided by a combination of username and slug, where a slug is the title of the guitar seperated by dashes. Example: in the url: "danllerena.com/home/guitars/dan9167/Fender-Standard-Stratocaster", 'dan9167' is the username and Fender-Standard-Stratocaster is the slug version of the title: "Fender Standard Stratocaster". This unique combination allows users to upload guitars of the same title and keeps an individual user from uploading two guitars of the same title.
 - Search functionality is provided so users can search for a guitar with a specific wording. There is a model and controller for the search index page and uses the model to cross-reference titles of guitars in the database that can match the keyword written in side of the search bar.
+- Use of Codeigniter helper functions such as flash_messages for operations like logging in or posting a guitar.
 
 ***********************************
 Immediate Goals that have yet to be fulfilled

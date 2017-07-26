@@ -17,8 +17,7 @@ What has been created so far
 - Pagination for seperating the displayed amount of guitars by pages.
 - All the controllers for existing pages have been properly routed in the routes.php in.
 - All models that are used to represent the database so far are autoloaded and work properly.
-- Full CRUD functionality for guitar instances. To explain this further, a user of this website can create a guitar, and decide
-the category the guitar belongs to (Acoustic, Electric, Classical/Nylon) and after creating the instance, the user can edit or delete the guitar.
+- Full CRUD functionality for guitar instances. To explain this further, a user of this website can create a guitar, and decide the category the guitar belongs to (Acoustic, Electric, Classical/Nylon) and after creating the instance, the user can edit or delete the guitar.
 - There is a categories page that allows anybody to find guitars based on the categories: "Acoustic, Electric or Classical/Nylon". Users can also create new categories that future guitars can be a part of.
 - Functionality for bidding on guitars is included, which allows users to bid on guitars they didn't upload themselves for any quantity or amount, accompanied with a comment they write.
 - The detail page for a guitar is decided by a combination of username and slug, where a slug is the title of the guitar seperated by dashes. Example: in the url: "danllerena.com/home/guitars/dan9167/Fender-Standard-Stratocaster", 'dan9167' is the username and Fender-Standard-Stratocaster is the slug version of the title: "Fender Standard Stratocaster". This unique combination allows users to upload guitars of the same title and keeps an individual user from uploading two guitars of the same title.

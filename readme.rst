@@ -1,70 +1,44 @@
 ###################
-What is CodeIgniter
+What is DansGuitars
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+DansGuitars is a model project for a dynamic website powered by CodeIgniter. It is not a real website but is designed specifically
+to be as close to a real website as possible. It follows the convention of MVC that is well-represented in Codeigniter.
 
-*******************
-Release Information
-*******************
+The basic idea of this web application is that visitors of the site can register and create an account to add guitars to the website that they would like to put up for sale. This website uses form validation to get as much information about the guitar that the person is trying to sell. Once a guitar is posted, it is recorded in the database and other registered users can locate a guitar of their choice and place a bid on it with an attached comment to let the guitar owner know their thought process for the amount they chose to bid and the quantity of guitars they want to purchase.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+If this were a real organization this website would be used as a marketplace for transactions of many musical instruments, accessories and other musical items. If the owner of the item agreed with a bid then they would click to accept the offer and from there a transaction would be organized. There would be a shopping cart option for people to add items to their cart and proceed to check out and have the item shipped to their address. Transactions would be done by credit card.
 
-**************************
-Changelog and New Features
-**************************
+****************************
+What has been created so far
+****************************
+Here is a list of accomplished goals for this site:
+- Full installation and integration of Codeigniter with the domain and the .htaccess file is properly created.
+- User registration and login and registration email.
+- Pagination for seperating the displayed amount of guitars by pages.
+- All the controllers for existing pages have been properly routed in the routes.php in.
+- All models that are used to represent the database so far are autoloaded and work properly.
+- Full CRUD functionality for guitar instances. To explain this further, a user of this website can create a guitar, and decide
+the category the guitar belongs to (Acoustic, Electric, Classical/Nylon) and after creating the instance, the user can edit or delete the guitar.
+- There is a categories page that allows anybody to find guitars based on the categories: "Acoustic, Electric or Classical/Nylon". Users can also create new categories that future guitars can be a part of.
+- Functionality for bidding on guitars is included, which allows users to bid on guitars they didn't upload themselves for any quantity or amount, accompanied with a comment they write.
+- The detail page for a guitar is decided by a combination of username and slug, where a slug is the title of the guitar seperated by dashes. Example: in the url: "danllerena.com/home/guitars/dan9167/Fender-Standard-Stratocaster", 'dan9167' is the username and Fender-Standard-Stratocaster is the slug version of the title: "Fender Standard Stratocaster". This unique combination allows users to upload guitars of the same title and keeps an individual user from uploading two guitars of the same title.
+- Search functionality is provided so users can search for a guitar with a specific wording. There is a model and controller for the search index page and uses the model to cross-reference titles of guitars in the database that can match the keyword written in side of the search bar.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+***********************************
+Immediate Goals that have yet to be fulfilled
+***********************************
+- Adding shopping cart functionality with checkout.
+- Adding an admin dashboard.
+- Subcategories for categories.
+- Sorting guitars by price, date posted, or title.
+- Ajax notifications
+- User profiles that keep a history of bids and transactions.
+- The ability to accept a bid and have it proceed to shipping.
 
 ***************
 Acknowledgement
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+I would like to take the time to thank you for viewing the GitHub for this project. If you would like to visit the website
+feel free to visit, danllerena.com.

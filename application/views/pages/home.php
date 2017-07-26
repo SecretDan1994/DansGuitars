@@ -62,5 +62,7 @@
         <p>The basic idea of this web application is that visitors of the site can register and create an account to add guitars to the website that they would like to put up for sale. This website uses form validation to get as much information about the guitar that the person is trying to sell. Once a guitar is posted, it is recorded in the database and other registered users can locate a guitar of their choice and place a bid on it with an attached comment to let the guitar owner know their thought process for the amount they chose to bid and the quantity of guitars they want to purchase.</p> 
 
         <p>If this were a real organization this website would be used as a marketplace for transactions of many musical instruments, accessories and other musical items. If the owner of the item agreed with a bid then they would click to accept the offer and from there a transaction would be organized. There would be a shopping cart option for people to add items to their cart and proceed to check out and have the item shipped to their address. Transactions would be done by credit card.</p> 
+
+        <p>You can find the GitHub for this website <strong><a href="https://github.com/SecretDan1994/DansGuitars">here</a></strong> with a readme that completely details this project.</p>
     </div>
 </div>

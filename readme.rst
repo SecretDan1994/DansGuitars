@@ -12,7 +12,6 @@ If this were a real organization this website would be used as a marketplace for
 ****************************
 What has been created so far
 ****************************
-Here is a list of accomplished goals for this site:
 - Full installation and integration of Codeigniter with the domain and the .htaccess file is properly created.
 - User registration and login and registration email.
 - Pagination for seperating the displayed amount of guitars by pages.

@@ -26,7 +26,7 @@ If this were a real organization this website would be used as a marketplace for
 - Use of Codeigniter helper functions such as flash_messages for operations like logging in or posting a guitar.
 
 ***********************************
-# Immediate Goals that have yet to be fulfilled?
+# Immediate Goals that have yet to be fulfilled
 ***********************************
 - Adding shopping cart functionality with checkout.
 - Adding an admin dashboard.
@@ -37,7 +37,7 @@ If this were a real organization this website would be used as a marketplace for
 - The ability to accept a bid and have it proceed to shipping.
 
 **********************
-# Here is a screenshot of the website.
+# Here is a screenshot of the website
 **********************
 ![Image](https://github.com/SecretDan1994/DansGuitars/blob/master/screenshot.png) 
 

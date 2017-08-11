@@ -36,9 +36,16 @@ Immediate Goals that have yet to be fulfilled
 - User profiles that keep a history of bids and transactions.
 - The ability to accept a bid and have it proceed to shipping.
 
+**********************
+# Here is a screenshot of the website.
+**********************
+![Image](https://github.com/SecretDan1994/DansGutiars/blob/master/screenshot.png) 
+
 ***************
 Acknowledgement
 ***************
 
 I would like to take the time to thank you for viewing the GitHub for this project. If you would like to visit the website
 feel free to visit, danllerena.com.
+
+

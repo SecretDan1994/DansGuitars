@@ -39,7 +39,7 @@ If this were a real organization this website would be used as a marketplace for
 **********************
 # Here is a screenshot of the website.
 **********************
-![Image](https://github.com/SecretDan1994/DansGutiars/blob/master/screenshot.png) 
+![Image](https://github.com/SecretDan1994/DansGuitars/blob/master/screenshot.png) 
 
 ***************
 # Acknowledgement

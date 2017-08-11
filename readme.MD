@@ -1,6 +1,6 @@
-###################
-What is DansGuitars
-###################
+*******************
+# What is DansGuitars?
+*******************
 
 DansGuitars is a model project for a dynamic website powered by CodeIgniter. It is not a real website but is designed specifically
 to be as close to a real website as possible. It follows the convention of MVC that is well-represented in Codeigniter.
@@ -10,7 +10,7 @@ The basic idea of this web application is that visitors of the site can register
 If this were a real organization this website would be used as a marketplace for transactions of many musical instruments, accessories and other musical items. If the owner of the item agreed with a bid then they would click to accept the offer and from there a transaction would be organized. There would be a shopping cart option for people to add items to their cart and proceed to check out and have the item shipped to their address. Transactions would be done by credit card.
 
 ****************************
-What has been created so far
+# What has been created so far?
 ****************************
 - Full installation and integration of Codeigniter with the domain and the .htaccess file is properly created.
 - Use of Html5 and Bootstrap for the frontend of the website
@@ -26,7 +26,7 @@ What has been created so far
 - Use of Codeigniter helper functions such as flash_messages for operations like logging in or posting a guitar.
 
 ***********************************
-Immediate Goals that have yet to be fulfilled
+# Immediate Goals that have yet to be fulfilled?
 ***********************************
 - Adding shopping cart functionality with checkout.
 - Adding an admin dashboard.
@@ -42,7 +42,7 @@ Immediate Goals that have yet to be fulfilled
 ![Image](https://github.com/SecretDan1994/DansGutiars/blob/master/screenshot.png) 
 
 ***************
-Acknowledgement
+# Acknowledgement
 ***************
 
 I would like to take the time to thank you for viewing the GitHub for this project. If you would like to visit the website
